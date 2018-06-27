@@ -1,0 +1,25 @@
+Please check the device connectivity,Backend exception,Failure
+Please check the device connectivity,Hardware,Failure
+Please provide correct device login credentials,Hardware,Failure
+Please select the correct router model from C3P GUI,Hardware,Failure
+Please select the correct OS from C3P GUI,Hardware,Failure
+Please select the correct IOS from C3P GUI,Hardware,Failure
+"Please re-check the data entered on C3P GUI related to <command for which exception is occurred> 
+e.g. 
+""Please re-check the data entered on C3P GUI related to Fastethernet0/0""",Template issue,Failure
+Either remove the existing BGP configuration from router or ensure that C3P GUI and router both have same AS number used for BGP configuration,User issue,Failure
+Configure the VRF before attempting to add the 'ip vrf forwarding <xxxx>' command on interface.,Template issue,Failure
+Please re-check the login username and password set by administrator. Credentials set by administrator must match with the credentials configured on actual router.,User issue,Failure
+"Before  configuring the 'ip cef', enable ip routing on router.",Template issue,Warning
+"Before configuring the crypto, set the the ip domain on router.",Template issue,Warning
+Please re-check <problematic command> command in configuration template,Template issue,Failure
+Please configure the VRF <xxxx> before configuring the VRF address family under BGP,Template issue,Failure
+Please configure crypto rsa key before configuring ip ssh version 2,Template issue,Warning
+Please provide the correct subnet mask,User issue,Failure
+Please provide the correct subnet mask under BGP network,User issue,Failure
+Please check the device interfaces,Certification,Failure
+Please check WAN interface,Certification,Failure
+Please check BGP configuration,Certification,Failure
+"Please check device interface configuration, hardware and connection link",Certification,Failure
+"Please check device interface configuration, hardware and connection link",Certification,Failure
+Please check bandwidth parameters,Certification,Failure
